@@ -1,0 +1,47 @@
+
+:root{
+    --one:#000000;
+    --two:#14213D;
+    --three:#FCA311;
+    --four:#E5E5E5;
+    --five:#344c80;
+    --six:#ffffff;
+
+}
+
+
+body{
+    background-color: var(--four);
+    
+    }
+    
+    h1{
+        text-align: center;
+        text-decoration: underline;
+        background-color: var(--six);
+        
+    }
+    .nav{
+    background-color: var(--three);
+    border: 2px solid var(--two);
+    
+    }
+    a:link{
+        color: var(--two);
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    a:visited{
+        color: var(--two);
+    }
+    a:hover{
+        color: var(--six);
+    }
+    
+    .nav li{
+        display: inline-block;
+        font-size: 30px;
+        padding: 20px;
+        border:3px round var(--two);
+        color: var(--two);
+    }
