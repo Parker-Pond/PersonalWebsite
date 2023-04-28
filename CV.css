@@ -1,0 +1,38 @@
+
+:root{
+    --one:#000000;
+    --two:#14213D;
+    --three:#FCA311;
+    --four:#E5E5E5;
+    --five:#344c80;
+    --six:#ffffff;
+
+}
+
+
+
+
+/* css for each block on the CBV page */
+.block {
+    border: 2px solid var(--one);
+    background-color: var(--five);
+    color: var(--four);
+    width: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.block ul{
+    list-style-type:none;
+   
+}
+#inline {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+#border{
+border: 4px solid var(--one);
+margin: auto;
+}

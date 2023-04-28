@@ -1,0 +1,34 @@
+
+:root{
+    --one:#000000;
+    --two:#14213D;
+    --three:#FCA311;
+    --four:#E5E5E5;
+    --five:#344c80;
+    --six:#ffffff;
+
+}
+.center{
+    text-align: center;
+    background-color: #344c80;
+    color: #ffffff;
+}
+.center p{
+    text-indent: 10px;
+}
+
+
+.inline {
+    display: flex;
+    justify-content: space-between;
+}
+.inlines {
+    border: 1px solid var(--one);
+    margin: auto;
+    text-align: center;
+    background-color: var(--five);
+    color: var(--four);
+    width: 170px;
+    height: 300px;
+    text-transform: capitalize;
+} 
