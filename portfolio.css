@@ -32,3 +32,7 @@
     height: 300px;
     text-transform: capitalize;
 } 
+
+#slant{
+-webkit-transform: rotate(-19deg) ;
+}

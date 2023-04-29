@@ -30,6 +30,12 @@ body{
         color: var(--two);
         text-decoration: none;
         text-transform: capitalize;
+
+        /* this will need to be rifined when i have a better color pallate */
+        
+        /* background-color: #E5E5E5;
+        padding-top: 10px;
+        padding-bottom: 10px; */
     }
     a:visited{
         color: var(--two);
