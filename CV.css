@@ -37,3 +37,43 @@
 /* border: 4px solid var(--one); */
 margin: auto;
 }
+
+/* this is the work resume area blocks */
+.flashcardbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+
+.flashcardContainer {
+    display: flex;
+    width: 800px;
+    height: 300px;
+    background-color: aquamarine;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+
+    background: linear-gradient(to left, rgb(84, 153, 205), rgb(50, 52, 97));
+}
+
+.innerFlashcard{
+    border: 1px solid blueviolet;
+    width: 45%;
+    height: 90% ;
+    text-align: center;
+    color: rgb(204, 213, 220);
+}
+.innerFlashcard img {
+    width: 300px;
+    height: auto;
+    padding-top: 70px;
+    margin: auto;
+    /* background-color: brown; */
+}
+.innerFlashcardList{
+    display: flex;
+    justify-content: space-around;
+    list-style: armenian ;
+}

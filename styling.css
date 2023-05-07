@@ -2,8 +2,8 @@
 :root{
     --one:#000000;
     --two:#14213D;
-    --three:#FCA311;
-    --four:#E5E5E5;
+    --three:#3b7acb;
+    --four:#ccdae4;
     --five:#344c80;
     --six:#ffffff;
 
@@ -17,13 +17,19 @@ body{
     
     h1{
         text-align: center;
-        text-decoration: underline;
-        background-color: var(--six)
+        font-family:fantasy;
+        margin: auto;
         
     }
     .nav{
     background-color: var(--three);
-    border: 2px solid var(--two);
+    /* border: 2px solid var(--two); */
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    
+
+
     
     }
     a:link{
@@ -43,12 +49,17 @@ body{
     a:hover{
         color: var(--six);
     }
-    
+    .nav ul{
+        display: flex;
+    }
     .nav li{
-        display: inline-block;
-        font-size: 30px;
+        list-style-type: none;
+        font-size: 15px;
         padding: 20px;
         border:3px round var(--two);
         color: var(--two);
-        margin: auto;
+        margin-left: auto;
+        margin-right: 0%;
+        justify-content: end;
+        align-content: end;
     }

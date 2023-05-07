@@ -1,9 +1,39 @@
 
 
+:root{
+    --one:#000000;
+    --two:#14213D;
+    --three:#FCA311;
+    --four:#E5E5E5;
+    --five:#344c80;
+    --six:#ffffff;
+
+}
 .info {
 background-color: #14213D;
 color:#FFFFFF;
 width: 500px;
 text-indent: 20px;
 margin: auto;
+}
+
+.infoHeader{
+/* border: 2px solid black; */
+height: 400px;
+background-color: var(--five);
+display: flex;
+color: var(--six);
+}
+.infoHeader img{
+opacity: 20%;
+}
+
+#wordsinHeader{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin: auto;
+    background-color: var(--two);
+    width: 600px;
+    height: 380px;
+    /* opacity: 40%; */
 }

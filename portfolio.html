@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="styling.css">
+    <script src="portfolio.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>Parker Pond</h1>
-    <!-- this is the navigation menue -->
-   <ul class="nav">
-    <li><a href="homepage.html" >home</a> </li>
-    <li><a href="CV.html" >about me</a> </li>
-    <li><a href="portfolio.html" >Portfolio</a> </li>
-   </ul>
+    <div class="nav">
+        <div> <h1>Parker Pond</h1> </div>
+        
+        <!-- this is the navigation menue -->
+        <div>
+        <ul>
+            <li><a href="homepage.html" >About Me</a> </li>
+            <li><a href="CV.html" >curriculum Vitae</a> </li>
+            <li><a href="portfolio.html" >Portfolio</a> </li>
+        </ul> 
+        </div>
+    </div>
   <!-- this is the body of the website -->
  <div class="center">
     <h2 > Portfolio</h2>
@@ -31,7 +37,7 @@
     <br>
     <br>
     <br>
-    <p id="slant">Skill coming soon</p>
+    <p class="slant" id="changeme">Skill coming soon</p>
 
     </div>
     <div class="inlines">
@@ -39,7 +45,7 @@
     <br>
     <br>
     <br>
-    <p id="slant">Skill coming soon</p>
+    <p class="slant" id="changeme">Skill coming soon</p>
 
     </div>
     <div class="inlines">
@@ -47,13 +53,16 @@
     <br>
     <br>
     <br>
-    <p id="slant">Skill coming soon</p>
+    <p class="slant" id="changeme">Skill coming soon</p>
+    
 
     </div>
 
 
 
 </div>
-    
+ <div class="selectorButton">   
+    <button  type="button" onclick="Skills()">Try it</button>
+ </div>
 </body>
 </html>

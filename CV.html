@@ -9,13 +9,18 @@
     <title>CVpage</title>
 </head>
 <body>
-    <h1>Parker Pond</h1>
-    <!-- this is the navigation menue -->
-   <ul class="nav">
-    <li><a href="homepage.html" >home</a> </li>
-    <li><a href="CV.html" >about me</a> </li>
-    <li><a href="portfolio.html" >Portfolio</a> </li>
-   </ul>
+    <div class="nav">
+        <div> <h1>Parker Pond</h1> </div>
+        
+        <!-- this is the navigation menue -->
+        <div>
+        <ul>
+            <li><a href="homepage.html" >About Me</a> </li>
+            <li><a href="CV.html" >curriculum Vitae</a> </li>
+            <li><a href="portfolio.html" >Portfolio</a> </li>
+        </ul> 
+        </div>
+    </div>
    <!-- this is the body of the website -->
 
    <h2>CV page</h2>
@@ -48,92 +53,99 @@
 <!-- I want all of the skills to be in a drop down thing or maybe a button push 
 that pulls up a pop up window that shows the soft and hard skills of each job -->
 
-<div class="block">
-    <h2>Resume</h2>
-        <h3>Cafe Zupas: Assistant Manager</h3>
-            <p>I did things...</p>
-            <div id="inline">
-                <div id="border">
-                    <h3>soft skills</h3>
-                    <p>Time Manegment</p>
-                    <p>Leadership</p>
-                    <p>Being Goal Oriented</p>
-                </div><div id="border">
-                    <h3>hard skills</h3>
-                    <p>...</p>
-                    <p>...</p>
-                    <p>...</p>
-                    <br>
+
+
+<div class="flashcardbox">
+
+ <!-- Cafe Zupas info card -->
+
+    <div class="flashcardContainer">
+        <div class="innerFlashcard">
+            <img src="https://vip.cafezupas.com/assets/img/logo-cafe.png">
+        </div>
+        <div class="innerFlashcard">
+            <h3>job Sdescription</h3>
+            <p>this is going to be a short job description, but we need to make sure that the text wraps around. </p>
+            <div class="innerFlashcardList">
+                <div>
+                    <ul>
+                        <h4>Hard Skills</h4>
+                        <li>...</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h4>Soft skills</h4>
+                        <li>...</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
                 </div>
             </div>
-        <h3>IHOP: Assistant Manager</h3>
-            <p>I did things...</p>
-            <div id="inline">
-                <div id="border">
-                    <h3>Soft Skills</h3>
-                    <p>...</p>
-                    <p>...</p>
-                    <p>...</p>
-                </div><div id="border">
-                    <h3>hard skills</h3>
-                    <p>...</p>
-                    <p>...</p>
-                    <p>...</p>
-                    <br>
+        </div>
+    </div>
+    <!-- Ihop information card -->
+        
+    <div class="flashcardContainer">
+        <div class="innerFlashcard">
+            <img src="https://media.wired.com/photos/59324b5126780e6c04d2ac09/master/w_1600%2Cc_limit/ihope-orig-inline.jpg">
+        </div>
+        <div class="innerFlashcard">
+            <h3>job Sdescription</h3>
+            <p>this is going to be a short job description, but we need to make sure that the text wraps around. </p>
+            <div class="innerFlashcardList">
+                <div>
+                    <ul>
+                        <h4>Hard Skills</h4>
+                        <li>...</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h4>Soft skills</h4>
+                        <li>...</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
                 </div>
             </div>
-        <h3>Sunrise Insurance: Personal Aid</h3>
-            <p>I did things...</p>
-            <div id="inline">
-                <div id="border">
-                    <h3>soft skills</h3>
-                    <p>...</p>
-                    <p>...</p>
-                    <p>...</p>
-                </div><div id="border">
-                    <h3>hard skills</h3>
-                    <p>...</p>
-                    <p>...</p>
-                    <p>...</p>
-                    <br>
+        </div>
+    </div>
+
+    <!-- Personal Aid for Sunrise Medical -->
+        
+    <div class="flashcardContainer">
+        <div class="innerFlashcard">
+            <img src="data:image/png;base64,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">
+        </div>
+        <div class="innerFlashcard">
+            <h3>job Sdescription</h3>
+            <p>this is going to be a short job description, but we need to make sure that the text wraps around. </p>
+            <div class="innerFlashcardList">
+                <div>
+                    <ul>
+                        <h4>Hard Skills</h4>
+                        <li>...</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h4>Soft skills</h4>
+                        <li>...</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
                 </div>
             </div>
-        <h3>Little Lemons Therapy: RBT</h3>
-            <p>I did things...</p>
-            <div id="inline">
-                <div id="border">
-                    <h3>soft skills</h3>
-                    <p>...</p>
-                    <p>...</p>
-                    <p>...</p>
-                </div><div id="border">
-                    <h3>hard skills</h3>
-                    <p>...</p>
-                    <p>...</p>
-                    <p>...</p>
-                    <br>
-                </div>
-            </div>
-        <h3>Henderson Chevrelet</h3>
-            <p>I did things...</p>
-            <div id="inline">
-                <div id="border">
-                    <p>...</p>
-                    <p>...</p>
-                    <p>...</p>
-                </div><div id="border">
-                    <h3>hard skills</h3>
-                    <p>...</p>
-                    <p>...</p>
-                    <p>...</p>
-                    <br>
-                </div>
-            </div>
+        </div>
+    </div>
+
 </div>
-
-
-
-
-    
 </body>
 </html>

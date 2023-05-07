@@ -33,6 +33,19 @@
     text-transform: capitalize;
 } 
 
-#slant{
+.slant{
 -webkit-transform: rotate(-19deg) ;
+}
+
+.selectorButton {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.selectorButton button{
+    background-color: var(--three);
+    padding: 10px;
+    color: var(--six);
+    align-self: center;
 }
