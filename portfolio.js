@@ -3,8 +3,7 @@
 const changeme = document.getElementsByClassName("slant")
 
 function Skills(){
-    changeme[0].innerHTML = "Sorry... still no skills";
-    changeme[1].innerHTML = "Sorry... still no skills";
-    changeme[2].innerHTML = "Sorry... still no skills";
+    for(let importantVariable = 0; importantVariable <4; importantVariable++){
+    changeme[importantVariable].innerHTML = "Sorry... still no skills";}
     return
 }

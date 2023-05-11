@@ -49,3 +49,64 @@
     color: var(--six);
     align-self: center;
 }
+
+.gridContainer{
+    /* border: 1px solid black; */
+
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-areas: 
+    "title title title"
+    "skill1 skill2 skill3"
+    "skill4 skill5 skill6"
+    "skill7 skill8 skill9";
+    background-color: var(--four);
+    grid-template-rows: 1fr 3fr 3fr ;
+    column-gap: 40px;
+    margin: 40px;
+
+    /* possible problem area */
+    flex-wrap: wrap;
+
+}
+.gridContainer img{
+border: 1px solid black;
+}
+#gridTitle{
+    grid-area: title;
+    /* border: 1px solid black; */
+    width: auto;
+    text-align: center;
+}
+.projectsLeft{
+    border: 1px solid black;
+    width: auto;
+    text-align: center;
+    margin-left: 20px;
+
+
+
+}
+.projectsCenter{
+    border: 1px solid black;
+    width: auto;
+    height: fit-content;
+    text-align: center;
+
+
+}
+.projectsRight{
+    border: 1px solid black;
+    width: auto;
+    height: fit-content;
+    text-align: center;
+    margin-right: 20px;
+
+}
+
+#skill1 {grid-area: skill1;}
+#skill2 {grid-area: skill2;}
+#skill3 {grid-area: skill3;}
+#skill4 {grid-area: skill4;}
+#skill5 {grid-area: skill5;}
+#skill6 {grid-area: skill6;}

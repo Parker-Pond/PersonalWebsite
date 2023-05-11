@@ -1,0 +1,72 @@
+
+
+:root{
+    --one:#000000;
+    --two:#14213D;
+    --three:#FCA311;
+    --four:#E5E5E5;
+    --five:#344c80;
+    --six:#ffffff;
+
+}
+.info {
+background-color: #14213D;
+color:#FFFFFF;
+width: 500px;
+text-indent: 20px;
+margin: auto;
+}
+
+.infoHeader{
+/* border: 2px solid black; */
+height: 400px;
+background-color: var(--five);
+display: flex;
+color: var(--six);
+}
+.infoHeader img{
+opacity: 20%;
+margin: auto;
+}
+
+#wordsinHeader{
+    /* border: 2px solid black;  */
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    /* background-color: var(--two); */
+    width: auto;
+    height: auto;
+    /* opacity: 40%; */
+}
+
+.layoutGrid{
+    display: grid;
+    grid-template-areas: 
+    "item1 item1 item2"
+    "item3 item4 item4"
+   " item5 item5 item6";
+   gap: 20px;
+   margin-left: 8%;
+   margin-right: 8%;
+
+}
+.gridItem{
+    width: auto;
+    height: 300px;
+    background-color: #14213D;
+    color: #E5E5E5;
+    border-radius: 10%;
+    padding: auto;
+    text-align: center;
+
+
+}
+
+
+#item1{grid-area: item1;}
+#item2{grid-area: item2;}
+#item3{grid-area: item3;}
+#item4{grid-area: item4;}
+#item5{grid-area: item5;}
+#item6{grid-area: item6;}
