@@ -23,12 +23,10 @@ body{
     }
     .nav{
     background-color: var(--three);
-    /* border: 2px solid var(--two); */
     display: flex;
     justify-content: space-between;
     height: 80px;
     flex-wrap: nowrap;
-    
 
 
     
@@ -38,11 +36,7 @@ body{
         text-decoration: none;
         text-transform: capitalize;
 
-        /* this will need to be rifined when i have a better color pallate */
-        
-        /* background-color: #E5E5E5;
-        padding-top: 10px;
-        padding-bottom: 10px; */
+      
     }
     a:visited{
         color: var(--two);

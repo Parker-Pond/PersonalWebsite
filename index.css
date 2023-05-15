@@ -18,7 +18,6 @@ margin: auto;
 }
 
 .infoHeader{
-/* border: 2px solid black; */
 height: 400px;
 background-color: var(--five);
 display: flex;
@@ -30,43 +29,62 @@ margin: auto;
 }
 
 #wordsinHeader{
-    /* border: 2px solid black;  */
     align-self: center;
     text-align: center;
     margin: auto;
-    /* background-color: var(--two); */
     width: auto;
     height: auto;
-    /* opacity: 40%; */
+
 }
 
 .layoutGrid{
     display: grid;
-    grid-template-areas: 
-    "item1 item1 item2"
-    "item3 item4 item4"
-   " item5 item5 item6";
-   gap: 20px;
+   grid-template-columns: repeat(5,1fr);
+   grid-template-rows: repeat(2, fit-content);
+   column-gap: 5%;
+   row-gap: 10%;
    margin-left: 8%;
    margin-right: 8%;
+   justify-content: center;
+   margin-top: 8%;
+   align-items: center;
 
 }
 .gridItem{
-    width: auto;
-    height: 300px;
+    height: fit-content;
     background-color: #14213D;
     color: #E5E5E5;
-    border-radius: 10%;
-    padding: auto;
+    border-radius: 8%;
+    padding: 4%;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: 8%;
 
+    
+   
+
+}
+.gridItem p{
+    width: 95%;
+    margin: auto;
+}
+
+#item1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+#item2 {
+    grid-column: 4/6;
+    grid-row: 1/2;
+    margin-bottom: auto;
+}
+#item3 {
+    grid-column: 1/3;
+grid-row: 2/3;}
+#item4 {
+    grid-column: 3/6;
+    grid-row: 2/3;
+    margin-bottom: -20%;
 
 }
 
-
-#item1{grid-area: item1;}
-#item2{grid-area: item2;}
-#item3{grid-area: item3;}
-#item4{grid-area: item4;}
-#item5{grid-area: item5;}
-#item6{grid-area: item6;}
